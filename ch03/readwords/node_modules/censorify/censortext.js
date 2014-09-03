@@ -18,3 +18,4 @@ function getCensoredWords(){
 exports.censor = censor;
 exports.addCensoredWord = addCensoredWord;
 exports.getCensoredWords = getCensoredWords;
+
