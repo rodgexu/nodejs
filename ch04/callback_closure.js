@@ -16,5 +16,5 @@ for (var idx in cars){
     logCar(msg, function(){
       console.log("Closure Callback: " + msg);
     });
-  })(message);
+  })();
 }

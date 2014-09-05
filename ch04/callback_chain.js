@@ -8,9 +8,9 @@ function logCar(car, callback){
 }
 function logCars(cars){
   var car = cars.pop();
-  logCar(car, function(){
-    logCars(cars);
-  });
+  logCar(car, 
+    logCars(cars)
+  );
 }
 var cars = ["Ferrari", "Porsche", "Bugatti", 
             "Lamborghini", "Aston Martin"];
